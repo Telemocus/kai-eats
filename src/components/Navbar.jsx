@@ -1,6 +1,6 @@
 import React from "react";
-import { AiOutlineMenu,AiOutlineSearch } from "react-icons/ai";
-import {BsFillCartFill} from 'react-icons/bs'
+import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
+import { BsFillCartFill } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -21,17 +21,27 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Search Input*/ }
+      {/* Search Input*/}
 
       <div className=" bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-40px lg:w-[500px]">
-        <AiOutlineSearch size={25}/>
-          <input className="bg-transparent p-2 w-full focus:outline-none" type="text" placeholder="Search Food"/>
+        <AiOutlineSearch size={25} />
+        <input
+          className="bg-transparent p-2 w-full focus:outline-none"
+          type="text"
+          placeholder="Search Food"
+        />
       </div>
       {/* Cart Button */}
       <button className="bg-black text-white hidden md:flex items-center py-2 rounded-full">
-        <BsFillCartFill size={20} className="mr-2"/> Cart
+        <BsFillCartFill size={20} className="mr-2" /> Cart
       </button>
 
+      {/* MOBILE MODE  */}
+
+      {/* OVERLAY */}
+      <div className=" bg-black/80 fixed w-full h-screen z-10 top-0 left-0"></div>
+
+      {/* SIDE DRAW MENU */}
     </div>
   );
 };
