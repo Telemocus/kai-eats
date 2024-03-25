@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <div className="text-2xl sm:text-3xl lg:text-4xl px-2">
           <h1>
-            Kai <span className="font-bold">Eats</span>
+            Mocus <span className="font-bold">Eats</span>
           </h1>
         </div>
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
