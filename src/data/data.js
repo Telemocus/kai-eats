@@ -57,7 +57,7 @@ export const data = [
   },
   {
     id: 9,
-    name: "Craft Beer",
+    name: "Shay' iHenke",
     category: "Alcohol",
     image: "https://images.pexels.com/photos/4276950/pexels-photo-4276950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: "R100",

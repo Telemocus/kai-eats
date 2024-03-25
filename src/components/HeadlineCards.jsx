@@ -8,7 +8,7 @@ const HeadlineCards = () => {
         {/* OVERLAY  */}
         <div className=" absolute w-full h-full bg-black/30 rounded-xl text-white">
           <p className="font-bold text-2xl px-2 pt-4">Feeling A Little Tipsy ?</p>
-          <p className="px-2">Whisky Whisker</p>
+          <p className="px-2">Asphuzeni</p>
           <button className="border-white bg-white text-black mx-2 absolute bottom-4">
             Order Now
           </button>
